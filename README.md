@@ -1,6 +1,6 @@
 # exino
 
-> Mattu's portfolio website
+> Mattu's website
 
 ## Build Setup
 
@@ -9,7 +9,7 @@
 npm install
 
 # serve with hot reload at localhost:8080
-npm run dev
+npm start
 
 # build for production with minification
 npm run build
