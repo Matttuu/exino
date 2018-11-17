@@ -5,6 +5,14 @@
     <ul>
       <li>
         <a
+          href="#/forside"
+          target="_blank"
+        >
+          Forside
+        </a>
+      </li>
+      <li>
+        <a
           href="https://vuejs.org"
           target="_blank"
         >
