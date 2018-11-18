@@ -13,6 +13,14 @@
       </li>
       <li>
         <a
+          href="#/factory"
+          target="_blank"
+        >
+          Factory
+        </a>
+      </li>
+      <li>
+        <a
           href="https://vuejs.org"
           target="_blank"
         >
