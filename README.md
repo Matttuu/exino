@@ -22,4 +22,4 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 ### Description
 
-Dette er min hjemmeside som kommer til at indholde et portfolio samt en factory. Projektet vil blive deployed på min vp og ville kunne tilgås på www.exino.dk så snart den er tilstrækkelig præsentabel. 
+Dette er min hjemmeside som kommer til at indholde et portfolio samt en factory. Projektet vil blive deployed på min vp og ville kunne tilgås på www.exino.dk, så snart den er tilstrækkelig præsentabel. 
