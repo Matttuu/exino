@@ -1,5 +1,14 @@
 <template>
 <div id ="forside_bg">
+
+ <div class="parent">
+    <div class="middle">
+        <div class="circle">
+            <div class="circle"></div>
+        </div>
+    </div>
+</div>
+
   </div>
 </template>
 
@@ -28,6 +37,28 @@ export default {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.parent{
+    display: table; 
+    margin: 50 auto;
+    background: lightgray;
+    height: 200px;
+    width: 200px;
+}
+.middle {display: table-cell; vertical-align: middle;}
+
+.circle
+    {
+    
+    margin: auto;
+    border: solid 10px blue;
+    border-radius: 50%;
+    padding-bottom: 30%;
+    opacity: 0.3;
+    width: 30%;
+    height: 30%;
+
 }
 
 </style>
