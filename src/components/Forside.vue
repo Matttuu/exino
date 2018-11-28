@@ -1,26 +1,28 @@
 <template>
 <div id ="forside_bg">
+	
+	<div class="wrap">
 
- 
-<div class="container"> 
-  <!-- Example row of columns -->
-  
-  <div class="row">
-    <div class="col-md-12 text-center">
-      <h2>Exino</h2>
-    </div>
-  </div>
-  
-  <div class="row">
-    <div class="col-md-3 col-sm-3 col-xs-6"></div>
-    <div class="col-md-3 col-sm-3 col-xs-6"> <a href="#" class="btn btn-sm animated-button victoria-one">Portfolio</a> </div>
-    <div class="col-md-3 col-sm-3 col-xs-6"> <a href="#" class="btn btn-sm animated-button victoria-two">Factory</a> </div>
-  </div> 
+		<div class="container"> 
+			<!-- Example row of columns -->
+
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<h2>Exino</h2>
+				</div>
+			</div>
+		
+			<div class="row">
+				<div class="col-md-3 col-sm-3 col-xs-6"></div>
+				<div class="col-md-3 col-sm-3 col-xs-6"> <a href="#" class="btn btn-sm animated-button left-button">Portfolio</a> </div>
+				<div class="col-md-3 col-sm-3 col-xs-6"> <a href="#" class="btn btn-sm animated-button right-button">Factory</a> </div>
+			</div> 
+		
+		</div>
+	</div>
 </div>
 
 
-
-  </div>
 </template>
 
 <script>
@@ -36,7 +38,24 @@ export default {
 
 <style scoped >
 
+/* Text */
+h2 {
+	color: #BDC3C7;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
 
+/* Center Div */
+.wrap {
+  display: flex;
+  justify-content: center;
+  height: 800px;
+}
+
+.container {
+  align-self: center;
+  padding: 2rem;
+}
 
 /* Background image */
 #forside_bg{
@@ -47,7 +66,7 @@ export default {
   position:fixed;
   top: 0;
   left: 0;
-  background: url('https://www.placehold.it/1920x1080.png') no-repeat center center fixed; 
+  background: url('~@/assets/forside_bg.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -117,57 +136,24 @@ a.animated-button:link, a.animated-button:visited {
 
 /*  Buttons */
 
-a.animated-button.victoria-one {
+a.animated-button.left-button {
 	border: 2px solid #D24D57;
 }
-a.animated-button.victoria-one:after {
+a.animated-button.left-button:after {
 	background: #D24D57;
 	-moz-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
 	-ms-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
 	-webkit-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
 	transform: translateX(-50%) translateY(-50%) rotate(-25deg);
 }
-a.animated-button.victoria-two {
+a.animated-button.right-button {
 	border: 2px solid #D24D57;
 }
-a.animated-button.victoria-two:after {
+a.animated-button.right-button:after {
 	background: #D24D57;
 	-moz-transform: translateX(-50%) translateY(-50%) rotate(25deg);
 	-ms-transform: translateX(-50%) translateY(-50%) rotate(25deg);
 	-webkit-transform: translateX(-50%) translateY(-50%) rotate(25deg);
 	transform: translateX(-50%) translateY(-50%) rotate(25deg);
 }
-a.animated-button.victoria-three {
-	border: 2px solid #D24D57;
-}
-a.animated-button.victoria-three:after {
-	background: #D24D57;
-	opacity: .5;
-	-moz-transform: translateX(-50%) translateY(-50%);
-	-ms-transform: translateX(-50%) translateY(-50%);
-	-webkit-transform: translateX(-50%) translateY(-50%);
-	transform: translateX(-50%) translateY(-50%);
-}
-a.animated-button.victoria-three:hover:after {
-	height: 140%;
-	opacity: 1;
-}
-a.animated-button.victoria-four {
-	border: 2px solid #D24D57;
-}
-a.animated-button.victoria-four:after {
-	background: #D24D57;
-	opacity: .5;
-	-moz-transform: translateY(-50%) translateX(-50%) rotate(90deg);
-	-ms-transform: translateY(-50%) translateX(-50%) rotate(90deg);
-	-webkit-transform: translateY(-50%) translateX(-50%) rotate(90deg);
-	transform: translateY(-50%) translateX(-50%) rotate(90deg);
-}
-a.animated-button.victoria-four:hover:after {
-	opacity: 1;
-	height: 600% !important;
-}
-
-
-
 </style>
