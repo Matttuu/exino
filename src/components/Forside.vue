@@ -16,8 +16,8 @@
       	<div class="col-sm-12 col-md-12 col-xs-12 col-lg-12 col-xl-12">
     	    <div class="row">
 						<div class="col-md-3 col-sm-3 col-xs-6"></div>
-						<div class="col-md-3 col-sm-3 col-xs-6"> <a href="#" class="btn btn-sm animated-button left-button">Portfolio</a> </div>
-						<div class="col-md-3 col-sm-3 col-xs-6"> <a href="#" class="btn btn-sm animated-button right-button">Factory</a> </div>
+						<div class="col-md-3 col-sm-3 col-xs-6"> <a href="#/portfolio" class="btn btn-sm animated-button left-button">Portfolio</a> </div>
+						<div class="col-md-3 col-sm-3 col-xs-6"> <a href="#/factory" class="btn btn-sm animated-button right-button">Factory</a> </div>
        		</div>
         </div>
 		</div> 
