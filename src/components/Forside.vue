@@ -1,6 +1,6 @@
 <template>
 <div id ="forside_bg">
-	
+
 	<div class="wrap">
 
 		<div class="container"> 
@@ -13,10 +13,14 @@
 			</div>
 		
 			<div class="row">
-				<div class="col-md-3 col-sm-3 col-xs-6"></div>
-				<div class="col-md-3 col-sm-3 col-xs-6"> <a href="#" class="btn btn-sm animated-button left-button">Portfolio</a> </div>
-				<div class="col-md-3 col-sm-3 col-xs-6"> <a href="#" class="btn btn-sm animated-button right-button">Factory</a> </div>
-			</div> 
+      	<div class="col-sm-12 col-md-12 col-xs-12 col-lg-12 col-xl-12">
+    	    <div class="row">
+						<div class="col-md-3 col-sm-3 col-xs-6"></div>
+						<div class="col-md-3 col-sm-3 col-xs-6"> <a href="#" class="btn btn-sm animated-button left-button">Portfolio</a> </div>
+						<div class="col-md-3 col-sm-3 col-xs-6"> <a href="#" class="btn btn-sm animated-button right-button">Factory</a> </div>
+       		</div>
+        </div>
+		</div> 
 		
 		</div>
 	</div>
@@ -38,6 +42,7 @@ export default {
 
 <style scoped >
 
+
 /* Text */
 h2 {
 	color: #BDC3C7;
@@ -58,9 +63,8 @@ h2 {
 }
 
 /* Background image */
-#forside_bg{
+  #forside_bg{
   min-height:100%;
-  min-width:1024px;
   width:100%;
   height:auto;
   position:fixed;
@@ -71,7 +75,7 @@ h2 {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
+}  
 /* Global Button Styles */
 a.animated-button:link, a.animated-button:visited {
 	position: relative;
