@@ -2,6 +2,8 @@
 
 > Mattu's website (WIP)
 
+> Dette repository bliver ikke længere brugt, da der er bleven oprettet et nyt private repository på [gitlab](http://gitlab.com) af sikkerheds årsager.
+
 ## Build Setup
 
 ``` bash
