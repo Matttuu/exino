@@ -2,7 +2,7 @@
 
 > Mattu's website (WIP)
 
-> Dette repository bliver ikke længere brugt, da der er bleven oprettet et nyt private repository på [gitlab](http://gitlab.com) af sikkerheds årsager.
+> Dette repository bliver ikke længere brugt, da der er oprettet et private repository på [gitlab](http://gitlab.com) af sikkerhedsmæssige årsager.
 
 ## Build Setup
 
